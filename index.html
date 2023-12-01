@@ -3,8 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Stop Watch</title>
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
-
+<div class="outer">
+    <div class="container">
+        <span>Stop Watch</span>
+        <h1 id="stopWatch">00 : 00 : 00 : 00</h1>
+        <div class="box">
+            <button id="btnStart" onclick="start()">Start</button>
+            <button id="btnStop" onclick="stop()">Stop</button>
+            <button id="btnRestart" onclick="restart()">Restart</button>
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
 </body>
 </html>
